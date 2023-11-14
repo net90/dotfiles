@@ -1,0 +1,21 @@
+env:
+  TERM: xterm-256color
+
+import:
+  # uncomment the flavour you want below:
+  - ~/.config/alacritty/catppuccin/catppuccin-mocha.yml
+#  - ~/.config/alacritty/catppuccin/catppuccin-macchiato.yml
+#  - ~/.config/alacritty/catppuccin/catppuccin-frappe.yml
+#  - ~/.config/alacritty/catppuccin/catppuccin-latte.yml
+
+shell:
+  program: /bin/bash
+  args:
+   - -l
+   - -c
+   - "tmux attach || tmux"
+
+font:
+ normal:
+  family: "JetBrainsMono Nerd Font"
+ size: 10
