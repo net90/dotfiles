@@ -1,0 +1,5 @@
+gentoo-pipewire-launcher & # Pipewire gentoo
+setxkbmap -layout se & # Swedish layout in session
+numlockx & # numlock in session
+
+exec dbus-launch --sh-syntax --exit-with-session xmonad
