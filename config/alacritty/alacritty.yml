@@ -1,13 +1,6 @@
 env:
   TERM: xterm-256color
 
-#import:
-  # uncomment the flavour you want below:
-  # - ~/.config/alacritty/catppuccin/catppuccin-mocha.ymli
-  # - ~/.config/alacritty/catppuccin/catppuccin-macchiato.yml
-  # - ~/.config/alacritty/catppuccin/catppuccin-frappe.yml
-  # - ~/.config/alacritty/catppuccin/catppuccin-latte.yml
-
 colors:
   primary:
     background: '0x0f0f0f'
