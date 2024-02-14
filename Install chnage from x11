@@ -1,1 +1,11 @@
+make.conf
 
+COMMON_FLAGS="-march=native -O2 -pipe"
+CFLAGS="${COMMON_FLAGS}"
+CXXFLAGS="${COMMON_FLAGS}"
+FCFLAGS="${COMMON_FLAGS}"
+FFLAGS="${COMMON_FLAGS}"
+MAKEOPTS="-j$(nproc) -l$(nproc)"
+VIDEO_CARDS="nvidia"
+
+USE = "acl bluetooth clang dbus elogind hardened multilib pipewire qt6 vulkan wayland -systemd"
