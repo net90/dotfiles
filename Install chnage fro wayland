@@ -20,3 +20,22 @@ LUA_SINGLE_TARGET="lua5-4"
 
 INPUT_DEVICES="libinput"
 ELIBC="glibc"
+
+portage unmask to /etc/portage/packages.unmask
+
+dev-qt/qtgui
+dev-qt/qtchooser
+dev-qt/qtdbus
+dev-qt/qtcore
+dev-qt/qtbase
+dev-qt/qtwayland
+dev-qt/qtdeclarative
+dev-qt/qtshadertools
+dev-qt/qtsvg
+dev-qt/qttools
+dev-qt/qt5compat
+dev-qt/qtimageformats
+media-video/ffmpeg
+virtual/rust
+dev-lang/rust
+
