@@ -14,3 +14,6 @@ if [[ $- != *i* ]] ; then
 fi
 
 # Put your fun stuff here:
+
+#neofetch
+eval "$(starship init bash)"
