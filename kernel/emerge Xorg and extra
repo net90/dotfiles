@@ -1,0 +1,51 @@
+# WM
+# -->
+x11-base/xorg-server
+x11-terms/xterm
+x11-terms/alacritty
+x11-misc/picom
+x11-apps/setxkbmap # If for changing keyboard layout
+x11-misc/numlockx # If have numlock
+x11-misc/xdg-user-dirs
+app-admin/sudo
+app-editors/neovim
+app-misc/neofetch
+
+#For xmonad
+x11-wm/xmonad
+x11-wm/xmonad-contrib
+# <--
+
+# X11 extra
+# -->
+x11-misc/rofi
+x11-misc/polybar
+app-shells/starship
+sys-process/htop
+media-gfx/feh # For background
+meida-gfx/flameshot # For screenshots
+app-text/tree
+app-admin/eclean-kernel
+app-misc/tmux
+dev-vcs/git
+app-eselect/eselect-repository
+sys-apps/flatpak # follow the gentoo guide.
+games-utils/xpadneo # follow the guide. This is for bluetooth or connected xbox controller.
+# <--
+
+# Sound
+# -->
+media-video/pipewire
+media-sound/pavucontrol
+# <--
+
+# For vulkan and graphics DEV.
+# -->
+media-libs/vulkan-layers
+media-libs/vulkan-loader
+dev-util/vulkan-tools
+media-libs/glfw
+media-libs/glew
+media-libs/glm
+virtual/opengl
+# <--
