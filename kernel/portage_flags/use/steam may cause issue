@@ -1,3 +1,6 @@
+# I would say i would be recommended to use steam with FLATPAK
+# So you may not cause any dependency issue or block issue or flag issue
+
 #x11-libs/libX11  abi_x86_32
 #x11-libs/libXau  abi_x86_32
 #x11-libs/libxcb  abi_x86_32
