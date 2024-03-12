@@ -49,3 +49,8 @@ media-libs/glew
 media-libs/glm
 virtual/opengl
 # <--
+
+# For fonts
+# -->
+media-fonts/noto-emoji
+# <--
